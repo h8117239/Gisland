@@ -1,0 +1,36 @@
+// Dota Heroes File
+// NOTE: This isn't for creating new heroes, this is for taking a currently existing hero as a template and overriding
+// the specified key-value combinations.  Use override_hero <hero_to_override> for this.
+"DOTAHeroes"
+{
+	
+
+	//=================================================================================================================
+	// HERO: Queen of Pain
+	//=================================================================================================================
+	"npc_dota_hero_queen_of_pain_holdout"
+	{
+		"override_hero"				"npc_dota_hero_queenofpain"
+
+		"Ability1"					"normal_attack_new"
+		"Ability2"					"holdout_qop_blink"
+		"Ability3"					"mirana_arrow"
+		//"Ability4"				"holdout_sonic_wave"
+		//"Ability4"					"fx_test_ability"
+		"Ability4"					"holdout_storm_bolt"
+		
+		"VisionNighttimeRange"		"1800"
+	}
+
+	//=================================================================================================================
+	// HERO: Witch Doctor
+	//=================================================================================================================
+	"npc_dota_hero_witch_doctor_holdout"
+	{
+		"override_hero"			"npc_dota_hero_witch_doctor"
+		"Ability1"				"holdout_paralyzing_cask"
+		"Ability2"				"holdout_voodoo_restoration"
+		"Ability4"				"holdout_death_ward"
+		"VisionNighttimeRange"		"1800"									// Range of vision at night time.
+	}
+}
